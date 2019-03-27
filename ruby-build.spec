@@ -43,7 +43,7 @@ PREFIX=%{buildroot}/%{_prefix} \
 %license %{_pkgdocdir}/LICENSE
 
 %changelog
-* Wed Mar 27 2018 Jeffrey Lau <jeffrey.lau@ribose.com> - 20190320
+* Wed Mar 27 2019 Jeffrey Lau <jeffrey.lau@ribose.com> - 20190320
 - Bump version
 
 * Sun Jun 18 2018 Ronald Tse <ronald.tse@ribose.com> - 20180618
