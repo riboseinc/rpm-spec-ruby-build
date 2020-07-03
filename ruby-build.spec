@@ -1,5 +1,5 @@
 Name:          ruby-build
-Version:       20190423
+Version:       20200520
 Release:       1%{?dist}
 Group:         Applications/System
 Summary:       The ruby-build program for building Ruby instances.
@@ -43,6 +43,9 @@ PREFIX=%{buildroot}/%{_prefix} \
 %license %{_pkgdocdir}/LICENSE
 
 %changelog
+* Fri Jul  3 2020 Jeffrey Lau <jeffrey.lau@ribose.com> - 20200520
+- Bump version
+
 * Tue Apr 30 2019 Jeffrey Lau <jeffrey.lau@ribose.com> - 20190423
 - Bump version
 
@@ -57,4 +60,3 @@ PREFIX=%{buildroot}/%{_prefix} \
 
 * Fri Jun 23 2017 Ronald Tse <ronald.tse@ribose.com> - 20170523
 - Initial commit
-
