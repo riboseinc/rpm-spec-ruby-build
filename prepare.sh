@@ -1,5 +1,6 @@
-#!/bin/bash
+#!/bin/bash -e
 
+ls -la /usr/local/rpm-specs/
 . /usr/local/rpm-specs/setup_env.sh
 
 yum install -y openssl-devel readline-devel zlib-devel
